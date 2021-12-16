@@ -1,0 +1,422 @@
+$gold: #d3b62a;
+$onyx: #444444;
+$timberwolf: #e1dcd6;
+$white: #fcfcfc;
+$black: #000000;
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("../fonts/HelveticaNeueCyr-Light.otf");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("../fonts/HelveticaNeueCyr-Medium.otf");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("../fonts/HelveticaNeueCyr-Bold.otf");
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+}
+.header-big {
+    font-family: HelveticaNeue;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.96;
+    letter-spacing: -0.48px;
+}
+.subhead {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: -0.18px;
+}
+.body-2 {
+    font-family: HelveticaNeue;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: -0.18px;
+}
+.validation-text {
+    font-family: HelveticaNeue;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: -0.15px;
+}
+body {
+    font-family: HelveticaNeue;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: -0.15px;
+}
+caption {
+    font-family: HelveticaNeue;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: -0.12px;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    .line-rule {
+        width: 1200px;
+        height: 4.4px;
+        background-color: $gold;
+    }
+    .div-1 {
+        width: 100%;
+        height: 683px;
+        background-image: url("../img/img-hero-bg.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .mbm-logo {
+            width: 350px;
+            margin-top: 58.1px;
+        }
+        .hero-contents {
+            width: 922px;
+            height: 302.5px;
+            margin: 83.4px 138px 0 140px;
+            padding: 6.3px 0;
+            display: flex;
+            .text {
+                .What-does-success-look-like {
+                    width: 415px;
+                    height: 92px;
+                    margin: 0 0 30px;
+                    font-family: HelveticaNeue;
+                    font-size: 48px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 0.96;
+                    letter-spacing: -0.48px;
+                    text-align: left;
+                    color: $gold;
+                }
+                .Standout-financial-advisor-certified-yoga-instruc {
+                    width: 415px;
+                    height: 84px;
+                    margin: 30px 0;
+                    font-family: HelveticaNeue;
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.56;
+                    letter-spacing: -0.18px;
+                    text-align: left;
+                    color: $timberwolf;
+                }
+                .Be-the-best-version-of-yourself {
+                    width: 415px;
+                    height: 22px;
+                    margin: 0 0 10px;
+                    font-family: HelveticaNeue;
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.22;
+                    letter-spacing: -0.18px;
+                    text-align: left;
+                    color: $white;
+                }
+                .Coming-in-2021 {
+                    width: 415px;
+                    height: 22px;
+                    margin: 10px 0 0;
+                    font-family: HelveticaNeue;
+                    font-size: 22px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1;
+                    letter-spacing: -0.22px;
+                    text-align: left;
+                    color: $gold;
+                }
+            }
+            img.img-video-thumb {
+                width: 445px;
+                height: 250.1px;
+                margin: 19.9px 0 19.9px 62px;
+                object-fit: contain;
+                -webkit-box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.6);
+                box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.6);
+            }
+        }
+    }
+    .div-2 {
+        .div-2-1 {
+            width: 922px;
+            margin: 83.4px 138px 0 140px;
+            padding: 6.3px 0;
+            display: flex;
+            align-items: center;
+            .Rectangle-8 {
+                position: absolute;
+                width: 445px;
+                height: 337px;
+                margin: 154px 380px 154px 95px;
+                border: solid 2px $gold;
+                z-index: 3;
+            }
+            .Rectangle-11 {
+                z-index: 1;
+                top: 1054px;
+                position: absolute;
+                width: 1340px;
+                height: 596px;
+                opacity: 0.3;
+                margin: 0 -138px;
+                background-color: $timberwolf;
+            }
+            .text {
+                padding: 30px 0;
+                z-index: 5;
+                width: 415px;
+                height: 220px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 30px;
+                margin-right: 60px;
+                position: relative;
+                .Rectangle-08 {
+                    position: absolute;
+                    background-color: white;
+                    z-index: 1;
+                    top: 30px;
+                    width: 415px;
+                    height: 70px;
+                }
+                .Rectangle-09 {
+                    position: absolute;
+                    background-color: #f4f3f1;
+                    z-index: 1;
+                    top: 99px;
+                    width: 415px;
+                    height: 140px;
+                }
+                .Mind-Body {
+                    width: 415px;
+                    font-family: HelveticaNeue;
+                    font-size: 48px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 0.96;
+                    letter-spacing: -0.48px;
+                    text-align: left;
+                    color: $onyx;
+                    z-index: 2;
+                }
+                .Everybody-wants-to-be-successful-until-they-see-w {
+                    width: 415px;
+                    font-family: HelveticaNeue;
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.56;
+                    letter-spacing: -0.18px;
+                    text-align: left;
+                    color: $black;
+                    z-index: 2;
+                }
+            }
+            img.img-mind-body {
+                height: 645px;
+                object-fit: contain;
+                z-index: 2;
+            }
+        }
+        .div-2-2 {
+            position: relative;
+            width: 920px;
+            height: 416.6px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 30px;
+            padding: 0;
+            margin: 83.4px 138px 0 140px;
+            img.img-money {
+                width: 445px;
+                height: 416.6px;
+                flex-grow: 0;
+                object-fit: contain;
+                z-index: 2;
+            }
+            .Rectangle-8 {
+                position: absolute;
+                width: 540px;
+                height: 337px;
+                margin: 40px 96px 39.6px 284px;
+                border: solid 2px $gold;
+                z-index: 3;
+            }
+
+            .text {
+                height: 248px;
+                align-self: stretch;
+                flex-grow: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-end;
+                gap: 30px;
+                margin-top: 74px;
+                padding: 30px 0;
+                z-index: 4;
+                .Money {
+                    height: 46px;
+                    align-self: stretch;
+                    flex-grow: 0;
+                    font-family: HelveticaNeue;
+                    font-size: 48px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 0.96;
+                    letter-spacing: -0.48px;
+                    text-align: left;
+                    color: $onyx;
+                    z-index: 2;
+                }
+                .Financial-literacy-is-at-the-core-of-what-Eszylfie-does-for-all-of-his-clients-Learn-how-to-get-you {
+                    height: 112px;
+                    align-self: stretch;
+                    flex-grow: 0;
+                    font-family: HelveticaNeue;
+                    font-size: 18px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.56;
+                    letter-spacing: -0.18px;
+                    text-align: left;
+                    color: $onyx;
+                    z-index: 2;
+                }
+                .Rectangle-08 {
+                    position: absolute;
+                    background-color: #f4f3f1;
+                    z-index: 1;
+                    top: 90px;
+                    width: 415px;
+                    height: 70px;
+                }
+                .Rectangle-09 {
+                    position: absolute;
+                    background-color: white;
+                    z-index: 1;
+                    top: 143px;
+                    width: 415px;
+                    height: 180px;
+                }
+            }
+        }
+    }
+    .div-3 {
+        margin-top: 80px;
+        height: 780px;
+        width: 1200px;
+        background-image: url("../img/join-bg-01.png");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img.join-content {
+            height: 100%;
+        }
+    }
+    .line-rule {
+        width: 1200px;
+        height: 4.2px;
+        flex-grow: 0;
+        background-color: $gold;
+    }
+    footer {
+        height: 269px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.88);
+        .left-text {
+            font-size: 10px;
+            width: 160px;
+            display: flex;
+            flex-direction: column;
+            .Disclosure {
+                font-size: 10px;
+                letter-spacing: -0.1px;
+                color: $white;
+            }
+            .adress {
+                margin-top: 15px;
+                font-family: HelveticaNeue;
+                font-size: 8px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.25;
+                letter-spacing: -0.08px;
+                text-align: left;
+                color: $gold;
+            }
+            img.ttm-logologo-mark {
+                margin-top: 40px;
+                width: 36px;
+                height: 36px;
+                flex-grow: 0;
+                object-fit: contain;
+            }
+        }
+        .Securities-and-investment-advisory-services-offered-through-SagePoint-Financial-Inc-SPF-member {
+            height: 155px;
+            opacity: 0.6;
+            font-family: HelveticaNeue;
+            font-size: 8px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.7;
+            letter-spacing: normal;
+            text-align: left;
+            color: $timberwolf;
+            width: 540px;
+        }
+    }
+}
