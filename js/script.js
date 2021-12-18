@@ -27,7 +27,7 @@ function updateModal() {
         modal.innerHTML = "";
         for (key in file) {
             console.log(key);
-            modal.innerHTML += `<div class="carousel-item ${active}"><img class="d-block w-100 h-100" src="${key}"/><div class="carousel-caption d-none d-md-block"><h5>${file[key]}</h5></div></div>`;
+            modal.innerHTML += `<div class="carousel-item ${active}"><img class="d-block w-100 h-100" src="${key}"/><div class="carousel-caption d-none d-md-block"><h5 class="text-light bg-dark">${file[key]}</h5></div></div>`;
             active = "";
         }
     }
