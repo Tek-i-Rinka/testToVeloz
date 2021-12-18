@@ -17,6 +17,21 @@ function checkLocalStorage() {
         window.localStorage.setItem(nameOfLocalJsonFile, "{}");
     }
 }
+function updateModal() {
+    let file = JSON.parse(window.localStorage.getItem(nameOfLocalJsonFile));
+    console.log(file);
+    if (file != null) {
+        let modal = document.querySelector(".carousel-inner");
+        let active = "active";
+        console.log(modal);
+        modal.innerHTML = "";
+        for (key in file) {
+            console.log(key);
+            modal.innerHTML += `<div class="carousel-item ${active}"><img class="d-block w-100 h-100" src="${key}"/><div class="carousel-caption d-none d-md-block"><h5>${file[key]}</h5></div></div>`;
+            active = "";
+        }
+    }
+}
 window.onload = function () {
     checkCookies();
     checkLocalStorage();
@@ -30,7 +45,7 @@ window.onload = function () {
             el.style.opacity = "0.6";
         });
         el.addEventListener("click", (e) => {
-            let name = e.target.className;
+            let name = e.target.attributes.src.nodeValue;
             let obj = JSON.parse(
                 window.localStorage.getItem(nameOfLocalJsonFile)
             );
@@ -47,6 +62,7 @@ window.onload = function () {
                     JSON.stringify(obj)
                 );
             }
+            updateModal();
         });
     });
     var text = document.querySelectorAll(".text");
